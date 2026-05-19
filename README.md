@@ -42,9 +42,9 @@ Evaluate the model with test accuracy, confusion matrix, classification report, 
 
 ## PROGRAM
 
-### Name: Adharsh Vidyradh U
+### Name: Sameer Shariff M
 
-### Register Number: 212224230007
+### Register Number: 212224220085
 
 ```python
 print(f"Total number of test samples: {len(test_dataset)}")
@@ -94,8 +94,8 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
         print(f'Epoch [{epoch+1}/{num_epochs}], Train Loss: {train_losses[-1]:.4f}, Validation Loss: {val_losses[-1]:.4f}')
 
     # Plot training and validation loss
-    print("Name: Adharsh Vidyardh U")
-    print("Register Number:  212224230007 ")
+    print("Name: Sameer Shariff M")
+    print("Register Number:  212224220085 ")
     plt.figure(figsize=(8, 6))
     plt.plot(range(1, num_epochs + 1), train_losses, label='Train Loss', marker='o')
     plt.plot(range(1, num_epochs + 1), val_losses, label='Validation Loss', marker='s')
@@ -111,23 +111,23 @@ def train_model(model, train_loader,test_loader,num_epochs=10):
 
 ## Training Loss, Validation Loss Vs Iteration Plot
 
-<img width="602" height="225" alt="Screenshot 2026-05-14 094216" src="https://github.com/user-attachments/assets/93c1c801-bd24-4469-b944-ebe178da9fa2" />
-<img width="868" height="732" alt="Screenshot 2026-05-14 094245" src="https://github.com/user-attachments/assets/3418d1bd-f956-48b3-a556-11269db28619" />
+<img width="892" height="767" alt="image" src="https://github.com/user-attachments/assets/bfea8393-d672-4e0b-8970-3e85fd716883" />
 
 
 ## Confusion Matrix
 
-<img width="838" height="798" alt="Screenshot 2026-05-14 094311" src="https://github.com/user-attachments/assets/76dbfd8b-f7b9-47d1-86d4-18ce30cb53e6" />
+<img width="810" height="789" alt="image" src="https://github.com/user-attachments/assets/7dcf5924-c4f1-43d5-aa4b-adf4947b66b6" />
 
 
 ## Classification Report
 
-<img width="601" height="251" alt="Screenshot 2026-05-14 094330" src="https://github.com/user-attachments/assets/ee2dcbc1-8e07-4e28-9e40-f1f677ba026a" />
+<img width="541" height="282" alt="image" src="https://github.com/user-attachments/assets/af11ba98-ca96-4d3c-91b1-a8e5c018b747" />
 
 
 ### New Sample Data Prediction
-<img width="431" height="486" alt="Screenshot 2026-05-14 094356" src="https://github.com/user-attachments/assets/afaa230f-f8aa-44ad-91c9-f90f657a242a" />
-<img width="442" height="502" alt="Screenshot 2026-05-14 094408" src="https://github.com/user-attachments/assets/435f6ccf-6d53-4a82-88a3-465e9212a064" />
+
+<img width="415" height="471" alt="image" src="https://github.com/user-attachments/assets/16f94ae3-892a-4d41-9df3-dd7e7aecd49d" />
+<img width="417" height="515" alt="image" src="https://github.com/user-attachments/assets/21cf594b-8b08-4d37-aa33-17489af7f9c5" />
 
 
 ## RESULT
